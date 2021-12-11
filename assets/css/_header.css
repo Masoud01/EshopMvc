@@ -1,0 +1,101 @@
+#header {
+    width: 1200px;
+    height: 100px;
+    margin: 16px auto;
+}
+
+#header_right {
+    width: 720px;
+    float: right;
+    height: 100%;
+}
+
+#header_right_top {
+    height: 50%;
+
+}
+
+#header_right_bottom {
+    height: 50%;
+}
+
+#header_left {
+    float: left;
+    cursor: pointer;
+}
+
+#header_right_top span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin: 0 4px;
+}
+
+#header_right_top #login {
+    background: url('../images/lock.png') no-repeat;
+
+}
+#header_right_top #register{
+    background: url(../images/signup.png) no-repeat;
+}
+#header_right_top a{
+    font-size: 13px;
+}
+.basket{
+    width: 190px;
+    height: 40px;
+    float: right;
+}
+.basket-right{
+    width: 54px;
+    height: 100%;
+    background-color: #26A65B;
+    float: right;
+}
+.basket-right span{
+    background: url(../images/basket.png) no-repeat center;
+    width: 54px;
+    height: 100%;
+    display: inline-block;
+    cursor: pointer;
+}
+.basket-left{
+    width: 136px;
+    background-color: #006442;
+    float: right;
+    height: 100%;
+    padding: 0 4px;
+    cursor: pointer;
+}
+.basket-left .basket-text{
+    color: #fff;
+    font-size: 13px;
+    padding: 0 20px;
+    line-height: 40px;
+}
+.basket-count{
+    width: 25px;
+    height: 25px;
+    background-color: #BFBFBF;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+    vertical-align: middle;
+    border-radius: 100%;
+    line-height: 26px;
+}
+.search-box{
+    width: 500px;
+    height: 40px;
+    float: right;
+}
+.search-box input[type=text]
+{
+    width: 480px;
+    height: 38px;
+    margin-top: 2px;
+    margin-right: 8px;
+    border: 1px solid #ddd;
+    padding: 0 8px
+}
