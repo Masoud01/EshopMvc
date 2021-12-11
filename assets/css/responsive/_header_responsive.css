@@ -1,0 +1,44 @@
+@media only screen and (min-width : 300px) and (max-width:450px) {
+    #header {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    #header_right {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100% !important;
+    }
+
+    #header_right_top {
+        margin-bottom: 16px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #header_left {
+        width: 100%;
+        text-align: center;
+        margin-top: 48px;
+    }
+    #header_right_bottom{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .basket {
+        margin-bottom: 16px;
+    }
+
+    .search-box input[type=text] {
+        width: 90% !important;
+    }
+    ::placeholder{
+        font-size: 12px !important;
+    }
+}
