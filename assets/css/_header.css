@@ -1,8 +1,14 @@
 @import 'responsive/_header_responsive.css';
+header{
+    background-color: #fff;
+    padding: 16px 0;
+
+}
 #header {
     width: 1200px;
     height: 100px;
-    margin: 16px auto;
+    margin: 0 auto;
+    padding-top: 10px;
 }
 
 #header_right {
@@ -90,6 +96,7 @@
     width: 500px;
     height: 40px;
     float: right;
+    position: relative;
 }
 .search-box input[type=text]
 {
@@ -99,4 +106,15 @@
     margin-right: 8px;
     border: 1px solid #ddd;
     padding: 0 8px
+}
+.btn_search{
+    width: 42px;
+    height: 38px;
+    display: inline-block;
+    position: absolute;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    cursor: pointer;
+    background: #ccc url(../images/search.png) no-repeat center;
 }
